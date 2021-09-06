@@ -21,7 +21,7 @@ jobs:
     steps:
 
     - name: Setup Docker Buildx
-      uses: docker/setup-buildx-action@v1.5.1
+      uses: docker/setup-buildx-action@v1.6.0
 
     - name: Build CloudCtl Kubectl Micro Container
       if: success()
